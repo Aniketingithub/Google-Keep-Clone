@@ -1,0 +1,20 @@
+{
+  "name": "aniket",
+  "version": "1.0.0",
+  "description": "chill factor 100",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aniket",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.13.3",
+    "npm": "^7.19.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "keywords": []
+}

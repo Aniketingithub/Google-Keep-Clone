@@ -1,0 +1,56 @@
+body {
+   background: blue;
+}
+.container-fluid {
+   background: rgb(255, 255, 0);
+}
+.navbar-brand {
+   font-size: 2.5vw;
+}
+.container {
+   margin-top: 20px;
+   width: 100px;
+   float: right;
+}
+.note {
+   /* border: 1px solid black; */
+   box-shadow: 10px 10px 10px #575555;
+   border-radius: .5em;
+   background: white;
+   overflow-y: hidden;
+   float: left;
+   width: 300px;
+   height: 180px;
+   margin-right: 30px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+.main {
+   margin-top: 50px;
+   margin-left: 10px;
+}
+.edit {
+   margin-right: 5px;
+   color: green;
+}
+.delete {
+   color: red;
+}
+.edit, .delete {
+   margin-top: 5px;
+   margin-right: 5px;
+   font-size: 1.5rem;
+}
+.form-control:focus, .form-control:hover, .form-control:active,.btn:hover, .btn:focus, .btn:active {
+   box-shadow: none !important;
+}
+.btn {
+   border: none;
+}
+.form-control {
+   border: none;
+   outline: none;
+}
+.hidden {
+   display: none;
+}
